@@ -34,11 +34,13 @@ const Faq = () => {
           </aside>
         </FlexLayout>
 
+        <div className="p-4"></div>
+
         <FlexLayout justify="justify-around" align="items-start">
           <div className="w-[75%]">
             <Table />
 
-            <div className="mt-10">
+            <div>
               <h2 className="text-[40px] font-bold mb-8 w-[70%]">
                 How much does it cost a business to have a website?
               </h2>
@@ -79,7 +81,7 @@ const Faq = () => {
               <p className="w-[80%] my-4 text-[20px]">
                 In most cases, website builders offer an affordable solution to:
               </p>
-              <ul className="list-disc ml-6 my-4 space-y-2">
+              <ul className="list-disc ml-6 my-4 space-y-2 text-[20px]">
                 <li>Freelancers</li>
                 <li>Start-ups</li>
                 <li>Small businesses</li>
