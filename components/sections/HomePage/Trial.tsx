@@ -6,7 +6,7 @@ import Quote from "@/components/ui/icons/Quote";
 
 const Trial = () => {
   return (
-    <div className="p-16 text-white bg-[url(/Banner.png)]">
+    <div className="p-16 text-white bg-[url(/Banner.png)] bg-cover">
       <Container>
         <div className="w-[80%] mx-auto">
           <h2 className="text-[40px] font-bold mb-8 text-center">
@@ -31,7 +31,7 @@ const Trial = () => {
           </FlexLayout>
 
           <div className="mt-16">
-            <FlexLayout  spaceClass="space-x-8">
+            <FlexLayout spaceClass="space-x-8">
               <FrostCard>
                 <h3 className="h-[158px] text-[35px] font-semibold">
                   Increased Website Traffic by
