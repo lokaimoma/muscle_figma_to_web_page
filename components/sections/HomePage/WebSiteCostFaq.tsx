@@ -39,14 +39,32 @@ const Faq = () => {
         <FlexLayout justify="justify-around" align="items-start">
           <div className="w-[75%]">
             <Table
-              headers={["Price Factor", "Cost", "sjds"]}
+              headers={["Price Factor", "Cost"]}
               rows={[
-                ["sdkdk", "dkdkd", "dkdkd"],
-                ["sdkdk", "dkdkd", "dkdkd"],
+                [
+                  "Web Design (View Web Design Costs)",
+                  "$12,000 to $150,000 / design",
+                ],
+                [
+                  "Website Maintenance (View Website Maintenance Costs)",
+                  "$400 to $60,000 / year",
+                ],
+                [
+                  "Website Marketing (View Website Marketing Costs)",
+                  "$2,500 to $12,000 / month",
+                ],
+                [
+                  "Website Design Services (Agency, Freelancer, or Website Builder)",
+                  "$0 to $100,000",
+                ],
+                [
+                  "Website Maintenance Services(Agency, Freelancer, or Website Builder)",
+                  "$0 to $5,500 / year",
+                ],
               ]}
             />
 
-            <div>
+            <div className="mt-14">
               <h2 className="text-[40px] font-bold mb-8 w-[70%]">
                 How much does it cost a business to have a website?
               </h2>
@@ -65,10 +83,38 @@ const Faq = () => {
                 Check out the average price for website development and upkeep,
                 broken down by business type, below.
               </p>
-              <p className="font-bold text-2xl">Table here</p>
+              <Table
+                headers={[
+                  "Business Type",
+                  "Web Design Cost",
+                  "Annual Site Maintenance Costs",
+                ]}
+                rows={[
+                  [
+                    "Informational or Small Business Website (8-16 pages)",
+                    "$2,000 – $9,000",
+                    "$400 – $1,200",
+                  ],
+                  [
+                    "Informational or Small Business Website (8-16 pages)",
+                    "$10,000 – $35,000",
+                    "$2,000 – $15,000",
+                  ],
+                  [
+                    "Ecommerce Website (100-1000 products)",
+                    "$5,000 – $55,000",
+                    "$15,000 – $30,000",
+                  ],
+                  [
+                    "Database Driven Website or Website Application(20-2000 pages)",
+                    "$6,000 – $75,000",
+                    "$30,000 – $60,000",
+                  ],
+                ]}
+              />
             </div>
 
-            <div className="mt-10">
+            <div className="mt-14">
               <h2 className="text-[40px] font-bold mb-8 w-[70%]">
                 What is the price of a website builder?
               </h2>
@@ -79,11 +125,31 @@ const Faq = () => {
                 depending on a number of criteria, including the level of
                 functionality you want.
               </p>
-              <p className="font-bold text-2xl">Table here</p>
+              <Table
+                headers={["Website Builder", "Cost"]}
+                rows={[
+                  ["Wix", "$23 – $500+ / month"],
+                  ["WordPress", "$7 – $59 / month"],
+                  ["Squarespace", "$16 – $54 / month"],
+                  ["GoDaddy", "$6.99 – $14.99 / month"],
+                  ["Weebly", "$0 – $26 / month"],
+                  ["Jimdo", "$0 – $39 / month"],
+                ]}
+              />
               <p className="w-[80%] my-4 text-[20px]">
                 You can check out what makes up website builder costs, below:
               </p>
-              <p className="font-bold text-2xl">Table here</p>
+              <Table
+                headers={["Price Factor", "Cost"]}
+                rows={[
+                  ["Website builder subscription", "$0 – $500 / month"],
+                  ["Plugins or apps", "$0 – $200 / one-time or recurring"],
+                  ["Themes", "$100 – $200 / theme"],
+                  ["Hosting", "$24 – $10,000 / year"],
+                  ["SSL certificate", "$0 – $1,500 / year"],
+                  ["Marketing (SEO, PPC, etc.)", "$50 – $10,000 / month"],
+                ]}
+              />
               <p className="w-[80%] my-4 text-[20px]">
                 In most cases, website builders offer an affordable solution to:
               </p>

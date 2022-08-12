@@ -9,7 +9,7 @@ const Table = ({ headers, rows }: TableProp) => {
   const headerSize = Math.floor(80 / headers.length);
   return (
     <div
-      className={`grid w-[80%]`}
+      className={`grid w-[80%] my-8`}
       style={{
         gridTemplateColumns: `repeat(${headers.length}, minmax(0, 1fr))`,
       }}
@@ -20,11 +20,11 @@ const Table = ({ headers, rows }: TableProp) => {
             index === 0
               ? "bg-black/80 text-white rounded-tl-xl"
               : index >= 2
-              ? "bg-[#C40000]/30"
-              : "bg-[#C40000]/10"
+              ? "bg-[#C40000]/10"
+              : "bg-[#C40000]/5"
           } ${
             index + 1 == headers.length && "rounded-tr-xl"
-          } font-bold p-4 border border-[#000000]/5`}
+          } font-bold px-6 py-8 border border-[#000000]/5`}
           key={index}
         >
           {header}
@@ -33,12 +33,12 @@ const Table = ({ headers, rows }: TableProp) => {
       {rows.map((row, subIdx) => {
         return row.map((text, index) => (
           <div
-            className={`!w-[${headerSize}%] p-4 ${
+            className={`!w-[${headerSize}%] px-6 py-8 ${
               index === 0
                 ? "bg-black/80 text-white"
                 : index >= 2
-                ? "bg-[#C40000]/30"
-                : "bg-[#C40000]/10"
+                ? "bg-[#C40000]/10"
+                : "bg-[#C40000]/5"
             } border border-[#000000]/5 ${
               subIdx === rows.length - 1 &&
               index === headers.length - 1 &&
@@ -46,7 +46,7 @@ const Table = ({ headers, rows }: TableProp) => {
             } ${subIdx === rows.length - 1 && index === 0 && "rounded-bl-xl"}`}
             key={`${index}_${subIdx}`}
           >
-            {text}
+            <p className={`w-fit ${index > 0 && "mx-auto"}`}>{text}</p>
           </div>
         ));
       })}

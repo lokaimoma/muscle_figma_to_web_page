@@ -16,13 +16,13 @@ const HomePage = () => {
       <Hero />
       <Partner />
       <Faq />
-      {/* <LearnMore />
+      <LearnMore />
       <Cost />
       <Trial />
       <SiteMaintenance />
       <Service />
       <MarketCost />
-      <GeneralFaq /> */}
+      <GeneralFaq />
     </AppLayout>
   );
 };

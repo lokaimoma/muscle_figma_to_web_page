@@ -434,7 +434,18 @@ const MarketCost = () => {
                 <h2 className="text-[40px] font-bold mb-8 w-[70%]">
                   Website Cost Summary
                 </h2>
-                <Table />
+                <Table
+                  headers={[
+                    "Need a quick summary of how much a website should cost? Use this handy cheat sheet for quick reference!",
+                    "Website Costs",
+                  ]}
+                  rows={[
+                    ["Web Design", "$12,000 to $150,000 / design"],
+                    ["Website Maintenance", "$400 to $60,000 / yea"],
+                    ["Website Marketing", "$50 – $500 / page"],
+                    ["Website Marketing", "$2,500 to $12,000 / month"],
+                  ]}
+                />
               </div>
             </div>
 

@@ -18,7 +18,7 @@ const Cost = () => {
             company&apos;s website builder costs will vary depending on a number
             of criteria, including the level of functionality you want.
           </p>
-          <div className="py-6 space-y-10 w-[70%] mx-auto">
+          <div className="py-14 space-y-10 w-[70%] mx-auto">
             <FlexLayout justify="justify-between">
               <h5 className="text-20px font-bold">Number of pages</h5>
               <Slider percentage={50} tags={["0-10", "10-50", "50-100"]} />

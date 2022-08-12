@@ -21,7 +21,24 @@ const CostInfo = () => {
             the price of developing a website is frequently more than the price
             of keeping it up-to-date.
           </p>
-          <Table />
+          <Table
+            headers={[
+              "How much does it cost to build a website? Between $12,000 to $150,000.",
+              "Web Design Costs",
+            ]}
+            rows={[
+              ["Domain Name", "$0.95 – $12"],
+              ["SSL Certificate", "$0 – $1,500"],
+              ["Website Hosting", "$24 – $10,000"],
+              ["Style or Theme", "$2,000 – $15,000"],
+              ["Responsive Design", "$3,000 – $25,000"],
+              ["Interactive Multimedia", "$250 – $10,000"],
+              ["Content Management System (CMS)", "$2,000 – $25,000"],
+              ["Ecommerce Functionality", "$2,000 – $25,000"],
+              ["Database Integration", "$2,000 – $25,000"],
+              ["Pages (1 to 250 pages)", "$1,000 – $10,000"],
+            ]}
+          />
           <p className="w-[80%] text-[20px] mt-5">
             Of course, there are freelancers, website builders, and web design
             firms you may pick from when it comes to web design and development.
@@ -39,7 +56,17 @@ const CostInfo = () => {
             essential if you want people to buy your product or get in touch
             with your business.
           </p>
-          <Table />
+          <Table
+            headers={[
+              "Explore the price differences between these three parties, below:",
+              "Freelancer, Website Builder, and Web Design Agency Costs",
+            ]}
+            rows={[
+              ["Website Builder", "$0 – $300"],
+              ["Freelancer", "$500 – $5,000"],
+              ["Web Design Agency", "$3,000 – $100,000"],
+            ]}
+          />
           <h4 className="font-bold mt-8 text-[20px] w-[80%]">
             Do you want to know more about upfront website fees, including what
             they entail and how much you should shell out?
@@ -181,7 +208,21 @@ const CostInfo = () => {
             not only, “How much does it cost to build a website?” but also, “How
             much does it cost to maintain a website?”.
           </p>
-          <Table />
+          <Table
+            headers={[
+              "So, how much does website maintenance cost? Around $400 to $60,000 per year.",
+              "Ongoing Website Costs",
+            ]}
+            rows={[
+              ["Domain Name", "$2 – $20 / year"],
+              ["SSL Certificate", "$0 – $1,500 / year"],
+              ["Website Hosting", "$24 – $10,000 / year"],
+              ["Content Management System (CMS)", "$0 – $40,000 / year"],
+              ["Ecommerce Functionality", "$180 – $300 / year"],
+              ["Website Maintenance", "$200 – $1,250 / year"],
+              ["Freelancer, Agency or Website Builder", "$0 – $5,400 / year"],
+            ]}
+          />
           <h2 className="text-[40px] font-bold my-8 w-[70%]">
             Monthly & Annual Website Costs
           </h2>
@@ -205,7 +246,17 @@ const CostInfo = () => {
             due to one-time investments, like the redesign of a logo or critical
             page.
           </p>
-          <Table />
+          <Table
+            headers={[
+              "Curious about the price difference between freelancers, website builders, and web design agencies?",
+              "Freelancer, Website Builder, and Web Design Agency Costs",
+            ]}
+            rows={[
+              ["Website Builder", "$0 – $25 / month"],
+              ["Freelancer", "$50 – $100 / hour"],
+              ["Web Design Agency", "$119 – $449 / month"],
+            ]}
+          />
           <h4 className="font-bold mt-8 text-[20px]">
             Want to learn more about website maintenance costs?
           </h4>
@@ -333,7 +384,23 @@ const CostInfo = () => {
             includes of online tactics that raise your profile online and
             increase site traffic, sales, and income.
           </p>
-          <Table />
+          <Table
+            headers={[
+              "So, how much can marketing your website cost? Most businesses invest $2,500 to $12,000 per month, though some spend upwards of $20,000 per month.",
+              "Website Marketing Costs",
+            ]}
+            rows={[
+              ["SEO", "$1,500 – $5,000 / month"],
+              ["PPC", "$9,000 – $10,000 / month"],
+              ["Professional Copywriting", "$50 – $500 / page"],
+              ["Content Marketing", "$2000 – $10,000 / month"],
+              [
+                "Social Media Marketing & Advertising",
+                "$4,000 – $7,000 / month",
+              ],
+              ["Email Marketing", "$9 – $1,000 / month"],
+            ]}
+          />
           <p className="w-[80%] text-[20px] my-5">
             You may utilize your website to encourage in-store visits even if
             your business doesn&apos;t function online. Why? To find new goods,

@@ -7,9 +7,9 @@ const Hero = () => {
   return (
     <section className="bg-[#F5F5F5] py-20">
       <Container>
-        <FlexLayout>
+        <FlexLayout justify="justify-around">
           <div className="w-[75%]">
-            <h1 className="text-[56px] font-bold w-[80%]">
+            <h1 className="text-[56px] font-bold w-[70%]">
               What Should the Price of a Website Be in 2022?
             </h1>
             <p className="w-[80%] text-[20px]">
@@ -28,7 +28,7 @@ const Hero = () => {
               </FlexLayout>
             </div>
           </div>
-          <div className="w-[25%] mt-12">
+          <div className="w-[30%]">
             <VideoPlay />
           </div>
         </FlexLayout>

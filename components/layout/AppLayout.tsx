@@ -1,21 +1,17 @@
-import { ReactNode } from "react"
-import Footer from "./Footer"
-import Header from "./Header"
+import { ReactNode } from "react";
 
 interface AppLayoutProp {
-    children: ReactNode
+  children: ReactNode;
 }
 
-const AppLayout = ({children}: AppLayoutProp) => {
+const AppLayout = ({ children }: AppLayoutProp) => {
   return (
     <div>
-        <Header />
-        <>
-            {children}
-        </>
-        <Footer />
+      {/* <Header /> */}
+      <>{children}</>
+      {/* <Footer /> */}
     </div>
-  )
-}
+  );
+};
 
-export default AppLayout
+export default AppLayout;

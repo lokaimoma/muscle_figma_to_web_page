@@ -53,7 +53,7 @@ const GeneralFaq = () => {
       <section className="py-20 bg-[#F0F5F9]">
         <Container>
           <div className="space-x-1 mx-auto">
-            <FlexLayout justify="justify-around" spaceClass="space-x-0">
+            <FlexLayout justify="justify-around" spaceClass="space-x-2">
               <div className="p-8 bg-white self-stretch">
                 <h5 className="text-[17px] font-semibold mb-8 w-[28ch]">
                   Web Design Services
