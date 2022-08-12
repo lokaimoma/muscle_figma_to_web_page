@@ -38,7 +38,13 @@ const Faq = () => {
 
         <FlexLayout justify="justify-around" align="items-start">
           <div className="w-[75%]">
-            <Table />
+            <Table
+              headers={["Price Factor", "Cost", "sjds"]}
+              rows={[
+                ["sdkdk", "dkdkd", "dkdkd"],
+                ["sdkdk", "dkdkd", "dkdkd"],
+              ]}
+            />
 
             <div>
               <h2 className="text-[40px] font-bold mb-8 w-[70%]">
@@ -59,7 +65,7 @@ const Faq = () => {
                 Check out the average price for website development and upkeep,
                 broken down by business type, below.
               </p>
-              <Table />
+              <p className="font-bold text-2xl">Table here</p>
             </div>
 
             <div className="mt-10">
@@ -73,11 +79,11 @@ const Faq = () => {
                 depending on a number of criteria, including the level of
                 functionality you want.
               </p>
-              <Table />
+              <p className="font-bold text-2xl">Table here</p>
               <p className="w-[80%] my-4 text-[20px]">
                 You can check out what makes up website builder costs, below:
               </p>
-              <Table />
+              <p className="font-bold text-2xl">Table here</p>
               <p className="w-[80%] my-4 text-[20px]">
                 In most cases, website builders offer an affordable solution to:
               </p>

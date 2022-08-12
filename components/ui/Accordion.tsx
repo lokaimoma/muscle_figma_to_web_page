@@ -20,7 +20,7 @@ const Accordion = ({ header, content }: AccordionProp) => {
             <Line />
             <div
               className={`${
-                isOpen ? "rotate-90" : "rotate-0"
+                !isOpen ? "rotate-90" : "rotate-0"
               } transition-transform mt-[-0.5px]`}
             >
               <Line />
