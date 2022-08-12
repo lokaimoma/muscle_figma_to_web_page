@@ -2,7 +2,7 @@ import Container from "@/components/layout/Container";
 import FlexLayout from "@/components/layout/FlexLayout";
 import SubNav from "@/components/ui/SubNav";
 import Table from "@/components/ui/Table";
-import TableOfContent from "@/components/ui/TableOfContent";
+import TableOfContent from "@/components/ui/CollapsingTableOfContent";
 import Link from "next/link";
 
 const Faq = () => {

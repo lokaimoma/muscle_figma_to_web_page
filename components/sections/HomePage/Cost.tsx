@@ -65,7 +65,7 @@ const Cost = () => {
             </FlexLayout>
           </div>
         </div>
-        <div className="p-16">
+        <div className="py-16">
           <CostInfo />
         </div>
       </Container>
