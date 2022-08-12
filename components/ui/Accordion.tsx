@@ -1,7 +1,6 @@
 import { useState } from "react";
 import FlexLayout from "../layout/FlexLayout";
 import Line from "./icons/Line";
-import Plus from "./icons/Plus";
 
 interface AccordionProp {
   header: string;
@@ -18,7 +17,14 @@ const Accordion = ({ header, content }: AccordionProp) => {
       <div onClick={toggle} className="cursor-pointer w-max">
         <FlexLayout spaceClass="space-x-5">
           <div className="self-stretch grid place-content-center">
-            {isOpen ? <Line /> : <Plus />}
+            <Line />
+            <div
+              className={`${
+                isOpen ? "rotate-90" : "rotate-0"
+              } transition-transform mt-[-0.5px]`}
+            >
+              <Line />
+            </div>
           </div>
           <h4 className="font-bold text-[20px]">{header}</h4>
         </FlexLayout>
