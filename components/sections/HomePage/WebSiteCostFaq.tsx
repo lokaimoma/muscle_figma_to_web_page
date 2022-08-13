@@ -23,7 +23,7 @@ const Faq = () => {
               and Wix!
             </p>
           </div>
-          <aside className="w-[25%]">
+          <aside className="w-[25%] self-start mt-3">
             <TableOfContent
               links={[
                 { title: "Website Costs", url: "#" },
@@ -64,7 +64,7 @@ const Faq = () => {
               ]}
             />
 
-            <div className="mt-14">
+            <div>
               <h2 className="text-[40px] font-bold mb-8 w-[70%]">
                 How much does it cost a business to have a website?
               </h2>
@@ -168,7 +168,7 @@ const Faq = () => {
             </div>
           </div>
 
-          <div className="w-[25%]">
+          <div className="w-[25%] mt-5">
             <h5 className="text-[20px] font-bold pb-4">Keep Reading</h5>
             <div className="flex flex-col space-y-4">
               <SubNav header="Website Design">
