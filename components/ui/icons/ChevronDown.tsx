@@ -1,4 +1,8 @@
-const ChevronDown = () => {
+interface ChevronDownProp {
+  fill?: string;
+}
+
+const ChevronDown = ({ fill = "fill-black" }: ChevronDownProp) => {
   return (
     <svg
       width="16"
@@ -9,7 +13,7 @@ const ChevronDown = () => {
     >
       <path
         d="M2.28571 0.42941L8 6.14369L13.7143 0.429409L16 1.57227L8 9.57227L-3.49691e-07 1.57227L2.28571 0.42941Z"
-        fill="black"
+        className={`${fill}`}
         fillOpacity="0.8"
       />
     </svg>
