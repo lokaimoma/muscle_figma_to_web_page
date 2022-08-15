@@ -1,8 +1,8 @@
 const VideoPlay = () => {
   return (
     <svg
-      width="508"
-      height="403"
+      width="100%"
+      height="100%"
       viewBox="0 0 508 403"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
