@@ -16,7 +16,7 @@ const Service = () => {
             your company
           </h4>
 
-          <div className="mt-16 mx-auto w-max">
+          <div className="mt-16">
             <FlexLayout spaceClass="space-x-8">
               <FrostCard>
                 <h4 className="font-semibold text-[20px]">
@@ -28,7 +28,7 @@ const Service = () => {
                 </p>
 
                 <div
-                  className="bg-transparent w-max"
+                  className="bg-transparent w-max mx-auto"
                   style={{ boxShadow: "0 0 20px rgba(255,255,255,1)" }}
                 >
                   <Button
@@ -51,7 +51,7 @@ const Service = () => {
                 </p>
 
                 <div
-                  className="bg-transparent w-max"
+                  className="bg-transparent w-max mx-auto"
                   style={{ boxShadow: "0 0 20px rgba(255,255,255,1)" }}
                 >
                   <Button
@@ -73,7 +73,7 @@ const Service = () => {
                 </p>
 
                 <div
-                  className="bg-transparent w-max"
+                  className="bg-transparent w-max mx-auto"
                   style={{ boxShadow: "0 0 20px rgba(255,255,255,1)" }}
                 >
                   <Button

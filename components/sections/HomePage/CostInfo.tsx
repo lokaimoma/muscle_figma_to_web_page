@@ -637,7 +637,6 @@ const CostInfo = () => {
             SSL certificate appears in your URL, just like your domain name does
             to users
           </p>
-          <div className="h-[37px] w-[80%] bg-[#D9D9D9]"></div>
           <p className="w-[80%] text-[20px] my-5">
             Your website URL will show up with &#8220;https&#8221; rather than
             &#8220;http&#8221; and a padlock to the right of it if a website has

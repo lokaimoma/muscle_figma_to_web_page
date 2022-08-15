@@ -6,7 +6,7 @@ interface FrostCardProp {
 
 const FrostCard = ({ children }: FrostCardProp) => {
   return (
-    <div className="rounded-lg bg-white/30 backdrop-blur-md pl-4 pr-1 pb-7 pt-8 self-stretch w-[270px]">
+    <div className="rounded-lg bg-white/30 backdrop-blur-md px-4 pb-7 pt-8 self-stretch w-full">
       {children}
     </div>
   );

@@ -7,12 +7,12 @@ const Hero = () => {
   return (
     <section className="bg-[#F5F5F5] py-20">
       <Container>
-        <FlexLayout justify="justify-around">
-          <div className="w-[75%]">
-            <h1 className="text-[56px] font-bold w-[70%]">
+        <FlexLayout justify="justify-around" spaceClass="space-x-0">
+          <div className="w-[60%]">
+            <h1 className="text-[56px] font-bold">
               What Should the Price of a Website Be in 2022?
             </h1>
-            <p className="w-[80%] text-[20px]">
+            <p className="text-[20px]">
               In today&apos;s digital age, it is essential to create and
               maintain a website whether your business is offline or online. But
               how much ought to a website cost? With an agency or freelancer,
@@ -28,7 +28,7 @@ const Hero = () => {
               </FlexLayout>
             </div>
           </div>
-          <div className="w-[30%]">
+          <div className="w-[40%]">
             <VideoPlay />
           </div>
         </FlexLayout>
