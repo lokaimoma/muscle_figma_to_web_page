@@ -16,7 +16,7 @@ const Service = () => {
             your company
           </h4>
 
-          <div className="mt-16">
+          <div className="mt-16 2xl:w-[70%] mx-auto">
             <FlexLayout spaceClass="space-x-8">
               <FrostCard>
                 <h4 className="font-semibold text-[20px]">

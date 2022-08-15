@@ -30,7 +30,7 @@ const Trial = () => {
             </div>
           </FlexLayout>
 
-          <div className="mt-16  w-[98%] mx-auto">
+          <div className="mt-16  w-[98%] 2xl:w-[70%] mx-auto">
             <FlexLayout spaceClass="space-x-8">
               <FrostCard>
                 <div className="flex flex-col justify-between h-full">
